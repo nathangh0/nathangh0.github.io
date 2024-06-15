@@ -1,0 +1,99 @@
+html, body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: #23232e;
+}
+header {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(75, 75, 75);
+    border-bottom: 1px solid #fefcff;
+}
+.nav-container {
+    display: flex;
+    width: 80%;
+    max-width: 1250px;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: center;
+}
+.site-title {
+    font-size: 30px;
+    color: rgb(218, 218, 218);
+    vertical-align: center;
+}
+.navlinks {
+    color: gray
+}
+.navlinks a {
+    text-decoration: none;
+    color: rgb(218, 218, 218);
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.profile-pic {
+    margin-top: 30px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about-me {
+    max-width: 1250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -5%;
+    margin-right: -5%;
+}
+.bio, .interests {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border-top: 1px solid #ccc;
+    padding: 10px 0px 20px 0px;
+}
+footer img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}

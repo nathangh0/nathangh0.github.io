@@ -1,265 +1,49 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Homepage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathan Huang's Profile</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-	body
-	{
-		background-color: rgba(215,215,215,1.00);
-	}
-	body 
-	{
-    	overflow-x: hidden;
-		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	}
-	.top.banner
-	{
-		left: 0;
-		box-sizing: border-box;
-		display: block;
-		width: 100%;
-		height: 80px;
-		background-color: #000000;
-		margin-top: 0px;
-		position: fixed;
-		white-space: nowrap;
-		top: 0;
-		width: 100%;
-	}
-	.top.name
-	{
-		color: aliceblue;
-		font-size: 50px;
-		margin-top: 0px;
-		padding-top: 10px;
-		height: 70px;
-		position: fixed;
-		top: 0;
-		left: 90px;
-		text-decoration: none;
-	}
-	.top.tabs
-	{
-		color: aqua;
-		font-size: 35px;
-		margin-top: 0px;
-		padding-top: 15px;
-		right : 50px;
-		height: 70px;
-		position: fixed;
-		display: table-cell;
-		text-align: right;
-		vertical-align: middle;
-		text-decoration: none;
-	}
-	.top.tab
-	{
-		color: aqua;
-		border: 2px solid;
-		border-radius: 10px;
-		padding: 5px;
-		text-decoration: none;
-		cursor: pointer;
-	}
-	.top.tab:hover
-	{
-		background: rgba(100, 255, 255, 0.35);
-	}
-	.SubTBar
-	{
-		text-align: center;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: -10px;
-		width: 30%;
-		min-width: 400px;
-		border-radius: 20px;
-		border-style: inset;
-		border-color: beige;
-	}
-	h1
-	{
-		font-size: 65px;
-		border-width: thick;
-		border-color: aquamarine;
-	}
-	p
-	{
-		text-align: left;
-		font-size: 35px;
-		text-indent: 100px;
-		padding-left: 50px;
-		padding-right: 50px;
-	}
-	ul
-	{
-		margin-left: 100px;
-	}
-	li
-	{
-		text-align: left;
-		font-size: 35px;
-		padding-left: 50px;
-		padding-right: 50px;
-	}
-	.DBtn
-	{
-		display: block;
-		background-color: DodgerBlue;
-		color: white;
-		border: 2px solid white;
-		padding: 12px 30px;
-		cursor: pointer;
-		font-size: 20px;
-		width: 250px;
-		border-radius: 15px;
-	}
-	.DBtn:hover 
-	{
-		background-color: RoyalBlue;
-	}
-	.PBtn
-	{
-		display: block;
-		background-color: rgba(0,255,0,1.00);
-		color: rgba(255,255,255,1.00);
-		padding: 12px 30px;
-		cursor: pointer;
-		font-size: 20px;
-		width: 250px;
-		border: 2px solid white;
-		border-radius: 15px;
-	}
-	.PBtn:hover 
-	{
-		background-color: rgba(58,205,58,1.00);
-	}
-	p.nip
-	{
-		text-indent: 0;
-		padding-left: 0px;
-		padding-right: 50px;
-	}
-	p.nip.pt
-	{
-		font-weight: bold;
-	}
-	a.lref
-	{
-		text-decoration: none; 
-		color: cadetblue
-	}
-	a.lref:hover
-	{
-		color: rgba(70,117,119,1.00);
-	}
-	
-	.bottom.banner
-	{
-		color: white;
-		left: 0;
-		box-sizing: content-box;
-		width: 102%;
-		height: 230px;
-		background-color: rgba(124,124,124,1.00);
-		background-origin: padding-box;
-		margin-bottom: -10px;
-		margin-right: -8px;
-		margin-left: -8px;
-		white-space: nowrap;
-		bottom: 0;
-	}
-	.bottom.SubTBar
-	{
-		border-style: none;
-	}
-	.CBtn
-	{
-		display: block;
-		width: 100%;
-		height: auto;
-  		width: auto\9;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	td 
-	{
- 		border: 2px solid darkgray;
-		border-radius: 10px;
-		padding: 5px;
-		height: 50px;
-		width: 50px;
-		cursor: pointer;
-	}
-	td:hover
-	{
- 		border: 2px solid aqua;
-	}
-	table
-	{
-		margin-left: auto;
-		margin-right: auto;
-	}
-</style>
 <body>
-	<div class = "top banner">
-		<a class = "top name" href = "Home.html">Nathan</a>
-		<nav class = "top tabs">
-			<a class = "top tab" href = "Blog.html">Blog</a> 
-			<a class = "top tab" href = "link1.html">link 1</a>
-			<a class = "top tab" href = "link2.html">link 2</a>
-		</nav>
-	</div>
-	<h1 class = "SubTBar" style="margin-top: 110px; background-image: linear-gradient(to bottom right, rgba(0,175,255,1.00), rgba(0,140,255,1.00));">About Me</h1>
-	<p>Hello! My name is Nathan. I am a 9th grade student in Austin, TX. I have many interests. I like programming, solving math, reading, and playing Minceraft.</p>
-	<h1 class = "SubTBar" style="background-image: linear-gradient(to bottom right, rgba(0,255,100,1.00), rgba(0,140,255,1.00));">My Projects</h1>
-	
-	<p>Games</p>
-	<ul>
-	  <li>
-			<p class = "nip pt">T a c o</p>
-			
-			<p class = "nip">A game I made in the year 2020. It's about running around and eating tacos while some red squares chase you.<br>Use:<br>Arrow Keys (or WASD) to move.</p>
-			
-			<input type = "button" class = "PBtn" value = "Play" onClick = "window.open('https://i.simmer.io/@Somebody/~a80cdb55-7d7e-5172-ed9e-846901777de9'); return false;"></li>
-		<li>Game 1</li>
-	</ul>
-	<p>Bots, Automation, etc...</p>
-	<ul>
-		<li>
-		  <p class = "nip pt">Typing Bot (<a href="https://humanbenchmark.com/tests/typing" class = "lref" target= "_blank">Human Benchmark</a>)</p>
-			
-		  <p class="nip">A fun little program I made because I used to be really bad at typing ;)<br>Use:<br> Download and open the exe below. A page should open. When the page loads, press the back button (left arrow) and the bot will fill in the text as fast as possible (10000-20000wpm)</p>
-			
-	    <input type="button" class ="DBtn" value="Download (Windows)" onclick="download('../Desktop/cool stuffs/python bots/Typing bot/Typing_bot.exe', 'Typing-Bot.exe')"></li>
-		<li>Project 1</li>
-	</ul>
-	<div class="bottom banner">
-		<div class = "bottom SubTBar"><h1 style="padding-top: 30px;">Contact Me</h1></div>
-		<table>
-			<tr>
-				<td onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=nathanghuang@gmail.com'); return false;">
-					<img class="CBtn" src= "https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt = "image failed to load"/>
-				</td>
-				<td onclick="window.open('https://www.reddit.com/message/compose?to=Nath243'); return false;">
-					<img class="CBtn" src= "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png" alt = "image failed to load"/>
-				</td>
-			</tr>
-		</table>
-	</div>
-	<script>
-		function download(FN, newFN)
-		{
-			var element = document.createElement('a');
-			element.setAttribute("href", FN);
-			element.setAttribute("download", newFN);
-			document.body.appendChild(element);
-			element.click();
-			document.body.removeChild(element);
-		}
-	</script>
+    <header>
+        <div class="nav-container">
+            <div class="site-title">Nathan Huang</div>
+            <nav class="navlinks">
+                <a href="index.html">About Me</a> | 
+                <a href="projects.html">Projects</a> | 
+                <a href="blog.html">Blog</a>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="profile-section">
+            <div class="profile-pic">
+                <img src="assets/images/profile-img.jpg" alt="profile-pic">
+            </div>
+            <div>
+                <h2>Nathan Huang</h2>
+            </div>
+        </div>
+        <div class="about-me">
+            <div class="bio">
+                <h3>About</h3>
+                <p>Hi there! I'm a junior from Westlake High School who loves playing around with cool (nerdy) programming stuff—one of many students around the world trying to scratch that learner's itch!<p>
+            </div>
+            <div class="interests">
+                <h3>Interests</h3>
+                <ul>
+                    <li>...</li>
+                    <li>...</li>
+                    <li>...</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail" onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=nathanghuang@gmail.com'); return false;">
+        <img src="assets/images/github-mark-white.png" alt="Github">
+    <footer>
 </body>
 </html>
