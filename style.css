@@ -97,20 +97,6 @@ header {
     margin-left: 5%;
     margin-right: 5%;
 }
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    border-top: 1px solid #ccc;
-    padding: 10px 0px 20px 0px;
-}
-footer img {
-    width: 40px;
-    height: 40px;
-    margin: 0 10px;
-}
 .academic-intro {
     align-self: flex-start;
     width: 100%;
@@ -149,4 +135,18 @@ a {
 }
 .blog-post {
     border-left: 3px solid #6b6fa5
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border-top: 1px solid #ccc;
+    padding: 10px 0px 20px 0px;
+}
+footer img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
 }
