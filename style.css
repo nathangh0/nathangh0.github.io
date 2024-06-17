@@ -127,16 +127,13 @@ header {
 .interests {
     padding-right: 10px;
 }
-ul {
-    padding-left: 20px;
-}​
 .section-intro {
     align-self: flex-start;
     width: 100%;
     margin-bottom: 20px;
 }
 .section-intro p {
-    margin-left: 280px;
+    color: #70b1ca;
 }
 .posts {
     display: grid;
@@ -176,3 +173,7 @@ footer img {
     height: 40px;
     margin: 0 10px;
 }
+
+ul {
+    padding-left: 20px;
+}​
