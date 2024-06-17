@@ -125,9 +125,11 @@ header {
     border-left: 2px solid rgb(187, 187, 187);
 }
 .interests {
-    padding-right: 20px;
+    padding-right: 10px;
 }
-
+ul {
+    padding-left: 20px;
+}​
 .section-intro {
     align-self: flex-start;
     width: 100%;
@@ -142,7 +144,7 @@ header {
     gap: 30px;
     width: 90%;
     margin-bottom: 40px;
-    margin-left: 480px;
+    margin-left: 280px;
 }
 .post {
     padding-left: 15px;
