@@ -1,0 +1,62 @@
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+#papers-and-reports {
+    background-color: #1b1b24;
+}
+#projects {
+    background-color: #23232e;
+}
+#community {
+    background-color: #1b1b24;
+}
+#blog {
+    background-color: #23232e;
+}
+
+
+.section-container{
+    width: 80%;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+.section-title {
+    font-weight: 100;
+    font-size: 35px;
+    color: #70b1ca;
+    margin: 0;
+}
+
+.section-intro {
+    align-self: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.section-intro p {
+    color: #70b1ca;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    width: 90%;
+    max-width: 1100px;
+    justify-content: center;
+    align-items: center;
+}

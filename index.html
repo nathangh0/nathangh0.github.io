@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nathan Huang's Profile</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Nathan Huang - Home</title>
+    <link rel="stylesheet" href="assets/styles/home-style.css">
+    <link rel="stylesheet" href="assets/styles/section-style.css">
+    <link rel="stylesheet" href="assets/styles/about-me-style.css">
+    <link rel="stylesheet" href="assets/styles/posts-style.css">
+    <script src="assets/scripts/home-script.js" defer></script>
 </head>
 <header>
-    <div class="nav-container">
-        <div class="site-title">Nathan Huang</div>
+    <div id="nav-container">
+        <div id="site-title">Nathan Huang</div>
         <nav class="navlinks">
             <a href="index.html">About Me</a> 
             <a href="index.html">Papers</a> 
@@ -20,7 +24,7 @@
 </header>
 <body>
     <div class="container">
-        <div class="about-me-section">
+        <div class="about-me section">
             <div class="profile-section">
                 <div class="profile-pic">
                     <img src="assets/images/profile-img.png" alt="profile-pic">
@@ -30,7 +34,7 @@
                     <h3 style="text-align: center;">Westlake High School<br>Austin, Texas</h3>
                 </div>
             </div>
-            <div class="about-me">
+            <div class="section-container">
                 <div class="bio">
                     <h3 class="section-title">About Me</h3>
                     <p>Hi there! I'm a senior from Westlake High School who loves playing around with cool (nerdy) programming stuff - one of many students around the world trying to scratch that learner's itch!<p>
@@ -58,90 +62,109 @@
                             <li>Computer Science and Informatics Summer Research (CSIRE) 2023, Participant </li>
                             <li>Continued CSIRE Research in Dept. of Computer Science, 2023 Fall - 2024 Summer, Research Intern </li>
                         </ul>
-                        <h4>Texas State University</h4> 
-        
+                        <h4>Texas State University</h4>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="section-intro">
-            <h3 class="section-title">Papers and Reports</h3>
-            <p>These are my publications and reports.</p>
-        </div>
-        <div class="posts">
-            <div class="academic-post post">
-                <h4><a href="Green.html">Reducing Energy Usage and Carbon Emissions</a></h4>
-				Desc...
+        <div id="papers-and-reports" class="section">
+            <div class="section-container">
+                <div class="section-intro">
+                    <h3 class="section-title">Papers and Reports</h3>
+                    <p>These are my publications and reports.</p>
+                </div>
+                <div class="posts">
+                    <div class="academic-post post">
+                        <h4><a href="Green.html">Reducing Energy Usage and Carbon Emissions</a></h4>
+                        Desc...
+                    </div>
+                    <div class="academic-post post">
+                        <h4><a href="Green.html">Reducing Energy Usage and Carbon Emissions</a></h4>
+                        Desc...
+                    </div>
+                </div>
             </div>
-            <div class="academic-post post">
-                <h4><a href="Green.html">Reducing Energy Usage and Carbon Emissions</a></h4>
-				Desc...
+        </div>
+        
+        <div id="projects" class="section">
+            <div class="section-container">
+                <div class="section-intro">
+                    <h3 class="section-title">Projects</h3>
+                    <p>Here are some of the projects I've done in my free time!</p>
+                </div>
+                <div class="posts">
+                    <div class="project-post post">
+                        <h4><a href="Project.html">Project</a></h4>
+                        Desc...
+                    </div>
+                    <div class="project-post post">
+                        <h4><a href="Project.html">Project</a></h4>
+                        Desc...
+                    </div>
+                    <div class="project-post post">
+                        <h4><a href="Project.html">Project</a></h4>
+                        Desc...
+                    </div>
+                    <div class="project-post post">
+                        <h4><a href="Project.html">Project</a></h4>
+                        Desc...
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="community" class="section">
+            <div class="section-container">
+                <div class="section-intro">
+                    <h3 class="section-title">Community</h3>
+                    <p>This is where I post updates on my community.</p>
+                </div>
+                <div class="posts">
+                    <div class="community-post post">
+                        <h4><a href="blep.html">Blep</a></h4>
+                        Recent research indicates that a simple 'blep' may be what it takes to fill that oh-so-awkward silence between you and your friends...
+                    </div>
+                    <div class="community-post post">
+                        <h4><a href="blep.html">Blep</a></h4>
+                        Recent research indicates that a simple 'blep' may be what it takes to fill that oh-so-awkward silence between you and your friends...
+                    </div>
+                    <div class="community-post post">
+                        <h4><a href="blep.html">Blep</a></h4>
+                        Recent research indicates that a simple 'blep' may be what it takes to fill that oh-so-awkward silence between you and your friends...
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="section-intro">
-            <h3 class="section-title">Projects</h3>
-            <p>Here are some of the projects I've done in my free time!</p>
+        <div id="blog" class="section">
+            <div class="section-container">
+                <div class="section-intro">
+                    <h3 class="section-title">Blog</h3>
+                    <p>This is where I post updates on my projects and life!</p>
+                </div>
+                <div class="posts">
+                    <div class="blog-post post">
+                        <h4><a href="blep.html">Blep</a></h4>
+                        Recent research indicates that a simple 'blep' may be what it takes to fill that oh-so-awkward silence between you and your friends...
+                    </div>
+                    <div class="blog-post post">
+                        <h4><a href="blep.html">Blep</a></h4>
+                        Recent research indicates that a simple 'blep' may be what it takes to fill that oh-so-awkward silence between you and your friends...
+                    </div>
+                    <div class="blog-post post">
+                        <h4><a href="blep.html">Blep</a></h4>
+                        Recent research indicates that a simple 'blep' may be what it takes to fill that oh-so-awkward silence between you and your friends...
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="posts">
-            <div class="project-post post">
-                <h4><a href="Project.html">Project</a></h4>
-				Desc...
-            </div>
-            <div class="project-post post">
-                <h4><a href="Project.html">Project</a></h4>
-				Desc...
-            </div>
-            <div class="project-post post">
-                <h4><a href="Project.html">Project</a></h4>
-				Desc...
-            </div>
-            <div class="project-post post">
-                <h4><a href="Project.html">Project</a></h4>
-				Desc...
-            </div>
-        </div>
-        <div class="section-intro">
-			<h3 class="section-title">Community</h3>
-			<p>This is where I post updates on my community.</p>
-		</div>
-		<div class="posts">
-			<div class="blog-post post">
-				<h4><a href="blep.html">Blep</a></h4>
-				Recent research indicates that a simple 'blep' may be what it takes to fill that oh-so-awkward silence between you and your friends...
-			</div>
-			<div class="blog-post post">
-				<h4><a href="blep.html">Blep</a></h4>
-				Recent research indicates that a simple 'blep' may be what it takes to fill that oh-so-awkward silence between you and your friends...
-			</div>
-			<div class="blog-post post">
-				<h4><a href="blep.html">Blep</a></h4>
-				Recent research indicates that a simple 'blep' may be what it takes to fill that oh-so-awkward silence between you and your friends...
-			</div>
-		</div>
-        <div class="section-intro">
-			<h3 class="section-title">Blogs</h3>
-			<p>This is where I post updates on my projects and life!</p>
-		</div>
-		<div class="posts">
-			<div class="blog-post post">
-				<h4><a href="blep.html">Blep</a></h4>
-				Recent research indicates that a simple 'blep' may be what it takes to fill that oh-so-awkward silence between you and your friends...
-			</div>
-			<div class="blog-post post">
-				<h4><a href="blep.html">Blep</a></h4>
-				Recent research indicates that a simple 'blep' may be what it takes to fill that oh-so-awkward silence between you and your friends...
-			</div>
-			<div class="blog-post post">
-				<h4><a href="blep.html">Blep</a></h4>
-				Recent research indicates that a simple 'blep' may be what it takes to fill that oh-so-awkward silence between you and your friends...
-			</div>
-		</div>
     </div>
     <footer>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail" onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=nathanghuang@gmail.com'); return false;">
-        <img src="assets/images/github-mark-white.png" alt="Github" onclick="window.open('https://github.com/nathangh0'); return false;">
+        <div id="contacts-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail" onclick="open_mail()">
+            <img src="assets/images/github-mark-white.png" alt="Github" onclick="open_git()">
+        </div>
     </footer>
 </body>
 </html>
