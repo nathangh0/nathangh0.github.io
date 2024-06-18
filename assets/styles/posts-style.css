@@ -14,7 +14,7 @@
 }
 .post a {
     color: white;
-    text-decoration-thickness: 1px;
+    text-decoration: none;
 }
 .academic-post {
     border-left: 5px solid #77c588
